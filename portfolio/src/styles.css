@@ -1,1 +1,125 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.front-header{
+    height: 250px;
+}
+.bg-1{
+    background-image: linear-gradient(to right, rgb(47, 30, 107) ,rgb(25, 12, 70),rgb(19, 7, 65), rgb(5, 2, 14));
+}
+.height-1{
+    height: 2px;
+}
+
+/* fonts stylings */
+
+.font-20{
+    font-size: 20px;
+}
+.font-22{
+    font-size: 22px;
+}
+.font-24{
+    font-size: 24px;
+}
+
+.font-400{
+    font-weight: 400px;
+}
+.font-500{
+    font-weight: 400px;
+}
+.font-600{
+    font-weight: 400px;
+}
+/* fonts stylings */
+
+/* text margins */
+.top-margin-small{
+    margin-top:10px;
+}
+.top-margin-medium{
+    margin-top:20px;
+}
+.top-margin-large{
+    margin-top:30px;
+}
+
+.bottom-margin-small{
+    margin-bottom:10px;
+}
+.bottom-margin-medium{
+    margin-bottom:20px;
+}
+.bottom-margin-large{
+    margin-bottom:30px;
+}
+
+.left-margin-small{
+    margin-left:10px;
+}
+.left-margin-medium{
+    margin-left:20px;
+}
+.left-margin-large{
+    margin-left:30px;
+}
+
+.right-margin-small{
+    margin-right:10px;
+}
+.right-margin-medium{
+    margin-right:20px;
+}
+.right-margin-large{
+    margin-right:30px;
+}
+
+/* text margins */
+
+/* text padding */
+
+.top-padding-small{
+    padding-top: 10px;
+}
+.top-padding-medium{
+    padding-top: 20px;
+}
+.top-padding-large{
+    padding-top: 30px;
+}
+
+.bottom-padding-small{
+    padding-bottom: 10px;
+}
+.bottom-padding-medium{
+    padding-bottom: 20px;
+}
+.bottom-padding-large{
+    padding-bottom: 30px;
+}
+
+.left-padding-small{
+    padding-left: 10px;
+}
+.left-padding-medium{
+    padding-left: 20px;
+}
+.left-padding-large{
+    padding-left: 30px;
+}
+
+.right-padding-small{
+    padding-right: 10px;
+}
+.right-padding-medium{
+    padding-right: 20px;
+}
+.right-padding-large{
+    padding-right: 30px;
+}
+/* text padding */
