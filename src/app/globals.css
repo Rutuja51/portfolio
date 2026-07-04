@@ -44,7 +44,7 @@
 }
 
 .exp-sec{
-  @apply sm:flex items-center mb-20 flex-col
+  @apply flex items-center mb-20 max-sm:flex-col max-sm:items-start
 }
 
 .year-font{
@@ -65,7 +65,7 @@
   @apply text-lg mb-8 mt-2 max-sm:text-base
 }
 .uni-link{
-  @apply text-red-600 underline
+  @apply text-blue-600 underline
 }
 .resume-heading{
   @apply text-3xl my-8

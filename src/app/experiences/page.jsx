@@ -46,9 +46,9 @@ export default function Experience(){
                 <div className="exp-sec">
                     <div className="year-font">2019</div>
                     <div className="vertical-line"></div>
-                    <div className="w-[70vw] flex flex-col gap-8"> 
+                    <div className="w-[70vw] flex max-sm:w-full flex-col gap-8"> 
                             <h3 className="role-name">Frontend Web Developement</h3>
-                            <p className="text-xl">
+                            <p className="text-xl max-sm:text-base">
                                 At Infocampus Istitute , Marathahalli , at Bangalore , India
                             </p>
                         
@@ -58,9 +58,9 @@ export default function Experience(){
                 <div className="exp-sec">
                     <div className="year-font">2018</div>
                     <div className="vertical-line"></div>
-                    <div className="w-[70vw] flex flex-col gap-8"> 
+                    <div className="w-[70vw] max-sm:w-full flex flex-col gap-8"> 
                             <h3 className="role-name">Bachelor of Technology &nbsp; &nbsp;(Information Technology)</h3>
-                            <p className="text-xl">
+                            <p className="text-xl max-sm:text-base">
                                 At Rajarambapu Institute of Technology , Sakhrale <br /> Islampur , India
                                 <br />
                                 <b>First class with CGPA : 7.5</b>
@@ -72,9 +72,9 @@ export default function Experience(){
                 <div className="exp-sec">
                     <div className="year-font">2014</div>
                     <div className="vertical-line"></div>
-                    <div className="w-[70vw] flex flex-col gap-8"> 
+                    <div className="w-[70vw] max-sm:w-full flex flex-col gap-8"> 
                             <h3 className="role-name">Higher Secondary School (HSC)</h3>
-                            <p className="text-xl">
+                            <p className="text-xl max-sm:text-base">
                                 At Yashawanrao Chavhan College of Science , Karad ,India
                                 <br />
                                 <b>First Class with 70% </b>
@@ -86,9 +86,9 @@ export default function Experience(){
                 <div className="exp-sec">
                     <div className="year-font">2012</div>
                     <div className="vertical-line"></div>
-                    <div className="w-[70vw] flex flex-col gap-8"> 
+                    <div className="w-[70vw] ax-sm:w-full flex flex-col gap-8"> 
                             <h3 className="role-name">Secondary School (SSC)</h3>
-                            <p className="text-xl">
+                            <p className="text-xl max-sm:text-base">
                                 Lahoti Kanya Prashala Karad , India
                                 <br />
                                 <b>Distinction with 85 %</b>
