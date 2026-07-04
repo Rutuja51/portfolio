@@ -2,10 +2,10 @@ import Link from "next/link";
 import "../../globals.css";
 export default function Header(){
     return (
-       <div className="bg-gray-800 text-white shadow-xl/30 fixed top-0  right-0 left-0"> 
+       <div className="bg-gray-800 text-white shadow-xl/30 sm:fixed sm:top-0  sm:right-0 sm:left-0"> 
        {/* #0768de #1b222b */}
         <nav>
-            <ul className="flex p-3 pl-12">
+            <ul className="sm:flex p-3 pl-12">
                 <li className="nav-item">
                     <Link href={'/'}>Home</Link>
                 </li>

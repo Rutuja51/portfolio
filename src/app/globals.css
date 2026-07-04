@@ -25,18 +25,18 @@
   @apply text-center leading-12 h-full
 }
 .skill-card{
-  @apply text-center rounded-xl px-8 py-6 shadow-2xl flex justify-center items-center flex-col gap-2 min-w-40
+  @apply text-center rounded-xl sm:px-8 px-4 sm:py-6 py-3 shadow-2xl flex justify-center items-center flex-col gap-2 sm:min-w-40 min-w-32
 }
 
 .route-page{
   @apply flex flex-wrap justify-center gap-24 mt-12 p-8 
 }
 .detail-box-container{
-  @apply flex gap-12 justify-start items-center mt-16 mb-16
+  @apply flex gap-12 justify-start items-center mt-16 mb-16 max-sm:flex-col
 }
 
 .detail-box{
-  @apply min-w-16 shadow-2xl rounded-2xl bg-sky-50 px-12 py-12 text-xl
+  @apply min-w-16 shadow-2xl rounded-2xl bg-sky-50 px-12 py-12 text-xl max-sm:w-[90vw]
 }
 
 .page-heading{
@@ -44,27 +44,29 @@
 }
 
 .exp-sec{
-  @apply flex items-center mb-20
+  @apply sm:flex items-center mb-20 flex-col
 }
 
 .year-font{
   @apply text-2xl min-w-28
 }
 .vertical-line{
-  @apply w-1 bg-[#0768de] h-50 ml-16 mr-16
+  @apply w-1 bg-[#0768de] h-50 ml-16 mr-16 max-sm:hidden
 }
 .role-name{
-  @apply text-3xl underline
+  @apply text-3xl underline max-sm:text-xl
 }
 
 .resume-page{
-  @apply flex flex-col mx-32 my-16
+  @apply flex flex-col mx-32 my-16 max-sm:mx-8 max-sm:my-0
 }
 
 .resume-text{
-  @apply text-lg mb-8 mt-2
+  @apply text-lg mb-8 mt-2 max-sm:text-base
 }
-
+.uni-link{
+  @apply text-red-600 underline
+}
 .resume-heading{
   @apply text-3xl my-8
 }
@@ -82,21 +84,21 @@ hr{
 }
 
 .Skill-page{
-  @apply flex flex-col p-16
+  @apply flex flex-col sm:p-16 p-4
 }
 
 .about-page{
-  @apply flex flex-col p-16
+  @apply flex flex-col sm:p-16 p-4
 }
 
 .project-page{
-  @apply flex flex-col p-16
+  @apply flex flex-col sm:p-16 p-4
 }
 
 .exp-page{
-  @apply flex flex-col p-16
+  @apply flex flex-col sm:p-16 p-4
 }
 
 .contact-page{
-  @apply flex flex-col p-16
+  @apply flex flex-col sm:p-16 p-4
 }

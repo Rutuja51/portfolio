@@ -23,7 +23,7 @@ export default function Projects(){
     return (
         <>
             <main className="project-page">
-                <h1 className="text-5xl font-md mb-8">Projects</h1>
+                <h1 className="sm:text-5xl text-3xl font-md mb-8 max-sm:text-center">Projects</h1>
                 <div className="flex flex-wrap gap-16">
                 {
                     project_arr.map((project)=>(

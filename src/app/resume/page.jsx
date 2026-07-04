@@ -3,7 +3,7 @@ export default function Resume() {
     return (
         <>
             <main className="resume-page">
-                <h1 className="text-5xl font-xl mb-16">Rutuja Mule</h1>
+                <h1 className="sm:text-5xl text-3xl font-xl mb-16 max-sm:text-center">Rutuja Mule</h1>
                 <DownloadCV></DownloadCV>
                 <hr /> <br />
                 <p className="resume-text">
@@ -71,7 +71,7 @@ export default function Resume() {
 
                 <p className="resume-subheading text-grey">01/07/2014 - 03/07/2018 Islampur, India </p>
                 <p className="resume-subheading">BACHELORE OF TECHNOLOGY RIT , Islampur , Maharashtra , India</p>
-                <p className="resume-text"><b>Websitehttps</b>: <a href="https://ritindia.edu/ritwebsite/website/admission_2026.php">https://ritindia.edu/ritwebsite/website/admission_2026.php  | </a> 
+                <p className="resume-text"><b>Websitehttps</b>: <a href="https://ritindia.edu/ritwebsite/website/admission_2026.php" className="uni-link">RIT ,India Official Link   </a> |
                 <b> Field of study : </b> Information Technology
                 </p>
 

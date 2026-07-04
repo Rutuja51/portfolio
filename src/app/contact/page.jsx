@@ -3,14 +3,14 @@ export default function Contact(){
     return (
         <>
            <main className="contact-page">
-            <h1 className="text-5xl font-md mb-8">Contact me on</h1>
+            <h1 className="sm:text-5xl text-3xl font-md mb-8 max-sm:text-center">Contact me on</h1>
             <p className="text-xl  mb-16">
                 If you are interested in hiring me for your project please use the form below to get in touch. <br /> Want to know how I work and what I can offer? Check out my projects and resume.
                 <br />
                 
             </p>
 
-            <div className="flex">
+            <div className="flex max-sm:justify-center">
                 <a href="https://github.com/Rutuja51" target="new">
                     <FaGithub className="text-blue-600 mr-6 text-4xl hover:animate-bounce hover:cursor-pointer" />
                 </a>
