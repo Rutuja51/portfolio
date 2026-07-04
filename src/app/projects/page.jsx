@@ -16,9 +16,9 @@ export default function Projects(){
 
         {"project_name" : "Music_app", 
             "img_url" :"/music_img.jpg" ,
-            "project_url" :"#",
+            "project_url" :"https://music-app-three-beta.vercel.app/",
             "desc":"This is replica of spotify implementing CSS and Bootstrap Concepts ... ",
-            "gitHub":""},
+            "gitHub":"https://github.com/Rutuja51/music_app"},
     ]
     return (
         <>
