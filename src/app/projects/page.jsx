@@ -4,9 +4,9 @@ export default function Projects(){
     let project_arr = [
         {"project_name" : "Portfolio", 
             "img_url" :"/portfolio_img.jpg" ,
-            "project_url" :"#",
+            "project_url" :"https://portfolio-nu-green-65.vercel.app/",
             "desc":"This project shows whole information about me ... ",
-            "gitHub":""},
+            "gitHub":"https://github.com/Rutuja51/portfolio"},
 
         {"project_name" : "WonderLust", 
             "img_url" :"/wanderlust_img.jpg" ,
