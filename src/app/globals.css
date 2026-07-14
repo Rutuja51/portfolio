@@ -22,7 +22,7 @@
 }
 
 .banner{
-  @apply text-center leading-12 h-full
+  @apply text-center leading-12 h-full animate-[slideLeft_1.8s_ease-out_forwards]
 }
 .skill-card{
   @apply text-center rounded-xl sm:px-8 px-4 sm:py-6 py-3 shadow-2xl flex justify-center items-center flex-col gap-2 sm:min-w-40 min-w-32
@@ -58,7 +58,7 @@
 }
 
 .resume-page{
-  @apply flex flex-col mx-32 my-16 max-sm:mx-8 max-sm:my-0
+  @apply flex flex-col mx-32 my-16 max-sm:mx-8 max-sm:my-0 animate-[slideUp_1.8s_ease-out_forwards]
 }
 
 .resume-text{
@@ -84,21 +84,54 @@ hr{
 }
 
 .Skill-page{
-  @apply flex flex-col sm:p-16 p-4
+  @apply flex flex-col sm:p-16 p-4 animate-[slideLeft_1.8s_ease-out_forwards]
 }
 
 .about-page{
-  @apply flex flex-col sm:p-16 p-4
+  @apply flex flex-col sm:p-16 p-4 animate-[slideDown_1.8s_ease-out_forwards]
 }
 
 .project-page{
-  @apply flex flex-col sm:p-16 p-4
+  @apply flex flex-col sm:p-16 p-4 animate-[slideUp_1.8s_ease-out_forwards]
 }
 
 .exp-page{
-  @apply flex flex-col sm:p-16 p-4
+  @apply flex flex-col sm:p-16 p-4 animate-[slideDown_1.8s_ease-out_forwards]
 }
 
 .contact-page{
-  @apply flex flex-col sm:p-16 p-4
+  @apply flex flex-col sm:p-16 p-4 animate-[slideDown_1.8s_ease-out_forwards]
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

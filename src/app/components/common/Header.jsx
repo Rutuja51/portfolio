@@ -2,7 +2,7 @@ import Link from "next/link";
 import "../../globals.css";
 export default function Header(){
     return (
-       <div className="bg-gray-800 text-white shadow-xl/30 sm:fixed sm:top-0  sm:right-0 sm:left-0"> 
+       <div className="bg-gray-800 text-white shadow-xl/30 sm:fixed sm:top-0  sm:right-0 sm:left-0 animate-[slideDown_1.8s_ease-out_forwards]"> 
        {/* #0768de #1b222b */}
         <nav>
             <ul className="sm:flex p-3 pl-12">
