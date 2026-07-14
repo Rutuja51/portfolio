@@ -14,7 +14,8 @@
 }
 
 .project-card-header{
-  @apply rounded-xl bg-slate-800 w-full h-40 text-white text-lg flex  items-center justify-center
+  @apply rounded-xl bg-slate-800 w-full h-40 text-white text-lg flex  items-center justify-center 
+ 
 }
 
 .project-card{

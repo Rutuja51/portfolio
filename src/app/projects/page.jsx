@@ -13,12 +13,18 @@ export default function Projects(){
             "project_url" :"https://wanderlust-bookings-sq7q.onrender.com/listings",
             "desc":"This is replica of make my trip implementing all crud Operation in Js ... ",
             "gitHub":"https://github.com/Rutuja51/wanderlust_bookings"},
-
+        {"project_name" : "Memory_Game", 
+            "img_url" :"/memory_game.png" ,
+            "project_url" :"https://memory-game-orcin-two.vercel.app/",
+            "desc":"Colour sequencing game implemented with pure HTML,CSS & JS only ... ",
+            "gitHub":"https://github.com/Rutuja51/memory-game/tree/main"},
         {"project_name" : "Music_app", 
             "img_url" :"/music_img.jpg" ,
             "project_url" :"https://music-app-three-beta.vercel.app/",
             "desc":"This is replica of spotify implementing CSS and Bootstrap Concepts ... ",
             "gitHub":"https://github.com/Rutuja51/music_app"},
+
+        
     ]
     return (
         <>
